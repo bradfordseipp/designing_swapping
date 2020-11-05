@@ -22,8 +22,14 @@ In your group, make your way through the following questions:
 
 1. What is the purpose of swapping?
 	What is the goal?
+Swapping is designed to allocate more memory that we have physical memory.	
+
 1. What is the benefit of swapping?
+Proper swapping allows for more memory.
+
 1. What are the potential downsides and challenges with swapping?
+
+
 1. How could you use page-table bits to enable swapping?
 1. How would you modify the page-fault exception path (triggered when 1. a page mapping isn't present/valid, or 2. a load/store/execution of the page is attempted when the page doesn't have read/write/execution permissions).
 1. How and when do you interact with the disk device?
